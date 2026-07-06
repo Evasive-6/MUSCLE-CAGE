@@ -150,7 +150,7 @@ export default function ContactPage() {
       <section className="border-t border-white/10">
         <div className="relative w-full aspect-[21/9] max-h-[520px]">
           <iframe
-            title="The Muscle Cage Fitness — Goregaon East, Mumbai"
+            title="The Muscle Cage Fitness — Sample City, Demo State"
             data-testid="contact-map"
             src={MAPS_EMBED_URL}
             className="absolute inset-0 w-full h-full"
@@ -160,7 +160,7 @@ export default function ContactPage() {
             allowFullScreen
           />
           <div className="absolute top-4 left-4 bg-black/70 border border-white/20 px-3 py-1 text-[10px] tracking-[0.3em] uppercase text-white/80">
-            Goregaon East · Mumbai
+            Sample City · Demo State
           </div>
         </div>
       </section>

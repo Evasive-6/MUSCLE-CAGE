@@ -44,7 +44,7 @@ export default function About() {
             </div>
             <div className="border-l-2 border-[#D90429] pl-4">
               <div className="text-xs tracking-[0.3em] uppercase text-[#D90429] font-bold mb-1">Vision</div>
-              <p className="text-white/70 text-sm leading-relaxed">To become Mumbai&apos;s most respected performance & lifestyle fitness destination.</p>
+              <p className="text-white/70 text-sm leading-relaxed">To become the most respected performance & lifestyle fitness destination in the demo experience.</p>
             </div>
           </div>
 

@@ -27,7 +27,7 @@ export default function TermsPage() {
           <p>All content, imagery and branding on this website is owned by The Muscle Cage Fitness and may not be reproduced without written permission.</p>
 
           <h2 className="font-heading text-white text-2xl uppercase mt-8">Contact</h2>
-          <p>Questions? Email <a className="text-[#D90429] hover:underline" href="mailto:info@musclecagefitness.in">info@musclecagefitness.in</a>.</p>
+          <p>Questions? Email <a className="text-[#D90429] hover:underline" href="mailto:hello@demo-gym.example">hello@demo-gym.example</a>.</p>
 
           <p className="text-xs uppercase tracking-widest text-white/40 pt-8 border-t border-white/10">Last updated · December 2025</p>
         </div>
