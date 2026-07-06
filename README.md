@@ -119,3 +119,8 @@ npm test
 - The backend connects to MongoDB through Mongoose in `backend/src/config/db.js`.
 - The frontend attaches the stored JWT automatically to API requests.
 - `dashboard` access is protected and depends on a valid auth token.
+
+## Live Deployment
+
+- Frontend: https://muscle-cage-ra6kbn064-eva101.vercel.app
+- The frontend is configured to use `REACT_APP_API_URL=https://muscle-cage.onrender.com/api`.
