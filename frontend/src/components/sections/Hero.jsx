@@ -14,12 +14,14 @@ export default function Hero() {
       {/* Overlays */}
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black/30" />
       <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/40" />
+      <div className="absolute -top-24 -right-20 h-72 w-72 rounded-full bg-[#D90429]/15 blur-3xl" />
+      <div className="absolute left-[-8rem] top-24 h-64 w-64 rounded-full bg-white/5 blur-3xl" />
 
       {/* Vertical side bar */}
       <div className="hidden md:flex absolute left-8 top-1/2 -translate-y-1/2 flex-col items-center gap-6 z-10">
         <div className="w-[1px] h-24 bg-white/20" />
         <div className="text-xs tracking-[0.4em] uppercase text-white/50 rotate-180 [writing-mode:vertical-rl]">
-          Est · Goregaon East · Mumbai
+          Est · Sample City · Demo State
         </div>
         <div className="w-[1px] h-24 bg-white/20" />
       </div>
@@ -28,7 +30,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto w-full px-6 sm:px-8 lg:px-12 pb-24 sm:pb-32 pt-32">
         <div className="max-w-4xl">
           <div className="inline-flex items-center gap-3 text-xs tracking-[0.4em] uppercase text-[#D90429] font-bold mb-6">
-            <span className="w-8 h-[1px] bg-[#D90429]" /> Premium Fitness · Mumbai
+            <span className="w-8 h-[1px] bg-[#D90429]" /> Premium Fitness · Demo Location
           </div>
           <h1 className="font-heading text-white text-6xl sm:text-8xl lg:text-[9rem] leading-[0.85] tracking-tight uppercase">
             Build <span className="text-[#D90429]">Strength.</span>
@@ -36,9 +38,22 @@ export default function Hero() {
             Build Confidence.
           </h1>
           <p className="mt-8 max-w-xl text-white/70 text-base sm:text-lg leading-relaxed">
-            Step into Goregaon East&apos;s most disciplined training ground. Iron. Sweat.
+            Step into our most disciplined training ground. Iron. Sweat.
             Community. Everything you need to forge the strongest version of yourself.
           </p>
+
+          <div className="mt-8 flex flex-wrap gap-3 text-xs uppercase tracking-[0.25em] text-white/70">
+            {[
+              "Strength training",
+              "Personal coaching",
+              "Nutrition support",
+              "Flexible memberships",
+            ].map((item) => (
+              <span key={item} className="rounded-full border border-white/15 bg-white/5 px-4 py-2 backdrop-blur-sm">
+                {item}
+              </span>
+            ))}
+          </div>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <Link

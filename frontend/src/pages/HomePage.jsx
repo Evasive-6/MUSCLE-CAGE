@@ -17,29 +17,70 @@ import Testimonials from "@/components/sections/Testimonials";
 import Enquiry from "@/components/sections/Enquiry";
 import MapSection from "@/components/sections/MapSection";
 import NewsletterCTA from "@/components/sections/NewsletterCTA";
+import useReveal from "@/hooks/useReveal";
 
 export default function HomePage() {
+  useReveal();
+
   return (
     <div data-testid="home-page">
-      <Hero />
-      <Counters />
-      <About />
-      <GymTour />
-      <Facilities />
-      <Trainers />
-      <Membership />
-      <FreeTrial />
-      <Schedule />
-      <BMICalculator />
-      <PersonalTrainer />
-      <Nutrition />
-      <Gallery />
-      <Testimonials />
-      <Blog />
-      <FAQ />
-      <Enquiry />
-      <MapSection />
-      <NewsletterCTA />
+      <div className="reveal">
+        <Hero />
+      </div>
+      <div className="reveal">
+        <Counters />
+      </div>
+      <div className="reveal">
+        <About />
+      </div>
+      <div className="reveal">
+        <GymTour />
+      </div>
+      <div className="reveal">
+        <Facilities />
+      </div>
+      <div className="reveal">
+        <Trainers />
+      </div>
+      <div className="reveal">
+        <Membership />
+      </div>
+      <div className="reveal">
+        <FreeTrial />
+      </div>
+      <div className="reveal">
+        <Schedule />
+      </div>
+      <div className="reveal">
+        <BMICalculator />
+      </div>
+      <div className="reveal">
+        <PersonalTrainer />
+      </div>
+      <div className="reveal">
+        <Nutrition />
+      </div>
+      <div className="reveal">
+        <Gallery />
+      </div>
+      <div className="reveal">
+        <Testimonials />
+      </div>
+      <div className="reveal">
+        <Blog />
+      </div>
+      <div className="reveal">
+        <FAQ />
+      </div>
+      <div className="reveal">
+        <Enquiry />
+      </div>
+      <div className="reveal">
+        <MapSection />
+      </div>
+      <div className="reveal">
+        <NewsletterCTA />
+      </div>
     </div>
   );
 }

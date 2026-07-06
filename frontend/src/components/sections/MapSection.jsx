@@ -14,7 +14,7 @@ export default function MapSection() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 grid grid-cols-1 lg:grid-cols-3 gap-6">
         <div className="lg:col-span-2 relative border border-white/10 overflow-hidden aspect-[16/10] lg:aspect-auto">
           <iframe
-            title="The Muscle Cage Fitness — Goregaon East, Mumbai"
+            title="The Muscle Cage Fitness — Sample City, Demo State"
             data-testid="map-embed"
             src={MAPS_EMBED_URL}
             className="absolute inset-0 w-full h-full"
@@ -24,14 +24,14 @@ export default function MapSection() {
             allowFullScreen
           />
           <div className="absolute top-4 left-4 bg-black/70 border border-white/20 px-3 py-1 text-[10px] tracking-[0.3em] uppercase text-white/80">
-            Goregaon East · Mumbai
+            Sample City · Demo State
           </div>
         </div>
 
         <div className="bg-[#0a0a0a] border border-white/10 p-8 flex flex-col justify-between">
           <div>
             <div className="text-xs tracking-[0.4em] uppercase text-[#D90429] font-bold mb-3">Visit The Cage</div>
-            <h3 className="font-heading text-white text-4xl uppercase leading-none">Goregaon East<br/>Mumbai</h3>
+            <h3 className="font-heading text-white text-4xl uppercase leading-none">Sample City<br/>Demo State</h3>
 
             <div className="mt-8 space-y-4">
               <div className="flex items-start gap-3">

@@ -157,7 +157,7 @@ export const BLOG = [
 ];
 
 export const FAQS = [
-  { q: "Where is The Muscle Cage Fitness located?", a: "We are located in Goregaon East, Mumbai, Maharashtra. Full address is available on our Contact page along with directions." },
+  { q: "Where is The Muscle Cage Fitness located?", a: "We are located at our demo studio in Sample City. The Contact page shows the placeholder address and directions." },
   { q: "What are the opening hours?", a: "Monday to Friday: 5:30 AM – 11:00 PM. Saturday: 6:00 AM – 10:00 PM. Sunday: 7:00 AM – 8:00 PM." },
   { q: "Do you offer a free trial?", a: "Yes. New members can book a complimentary trial session directly from this website using the Book a Free Trial form." },
   { q: "Do beginners receive guidance?", a: "Absolutely. Every new member receives an onboarding session with a certified trainer who walks you through equipment, form, and a starter program." },
@@ -175,20 +175,19 @@ export const TESTIMONIALS = [
   { name: "Sana R.", text: "Loved the free trial experience — smooth signup, great facility tour and a proper training session. Signed up the same day.", role: "New Member" },
 ];
 
-// Real demo contact information
-export const CONTACT_PHONE_DISPLAY = "+91 98670 11719";
-export const CONTACT_WHATSAPP_DISPLAY = "+91 84337 61032";
-export const CONTACT_EMAIL = "info@musclecagefitness.in";
+// Dummy contact information for the demo site
+export const CONTACT_PHONE_DISPLAY = "+1 (555) 012-3456";
+export const CONTACT_WHATSAPP_DISPLAY = "+1 (555) 012-3457";
+export const CONTACT_EMAIL = "hello@demo-gym.example";
 export const CONTACT_ADDRESS_LINES = [
-  "The Muscle Cage Fitness,",
-  "General Arun Kumar Vaidya Marg,",
-  "opp. Agarwal Diagnostic Centre,",
-  "Malad, Generak, Goregaon East,",
-  "Mumbai, Maharashtra 400063",
+  "Demo Gym Studio,",
+  "100 Example Avenue,",
+  "Suite 200,",
+  "Sample City, Demo State 00000",
 ];
-export const PHONE_TEL = "tel:+919867011719";
-export const WHATSAPP_URL = "https://wa.me/918433761032";
-export const MAPS_EMBED_URL = "https://www.google.com/maps?q=The+Muscle+Cage+Fitness+General+Arun+Kumar+Vaidya+Marg+Goregaon+East+Mumbai+400063&t=&z=16&ie=UTF8&iwloc=&output=embed";
+export const PHONE_TEL = "tel:+15550123456";
+export const WHATSAPP_URL = "https://wa.me/15550123457";
+export const MAPS_EMBED_URL = "https://www.google.com/maps?q=Demo+Gym+Studio+100+Example+Avenue+Sample+City&t=&z=14&ie=UTF8&iwloc=&output=embed";
 
 export const OPENING_HOURS = [
   { day: "Monday – Friday", h: "5:30 AM – 11:00 PM" },

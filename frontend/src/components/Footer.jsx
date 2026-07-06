@@ -26,7 +26,7 @@ export default function Footer() {
             THE <span className="text-[#D90429]">MUSCLE</span> CAGE
           </div>
           <p className="mt-4 text-white/60 max-w-md leading-relaxed">
-            A premium fitness experience in Goregaon East, Mumbai. Build strength.
+            A premium fitness experience for the demo site. Build strength.
             Build confidence. Build the version of you the world hasn&apos;t met yet.
           </p>
           <div className="mt-6 flex flex-col gap-3 text-sm text-white/70">
