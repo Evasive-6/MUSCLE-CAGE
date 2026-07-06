@@ -1,0 +1,9 @@
+/* App-specific overrides */
+.App {
+  min-height: 100vh;
+  background: #050505;
+  color: #D4D4D4;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
