@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 async function connectDb() {
-  const mongoUrl = process.env.MONGO_URL || "mongodb://127.0.0.1:27017/muscle_cage";
+  const mongoUrl = process.env.MONGO_URL;
 
   if (mongoose.connection.readyState === 1) {
     return mongoose.connection;
